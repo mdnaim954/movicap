@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button i{
+    display: none;
+}
+.clickbutton{
+    display: none;
+}
+#menubtnj{
+    font-size: 30px;
+}
+.clickbutton i{
+    color: #fff;
+}
+.clickbutton i p {
+    display: inline;
+    color: #fff;
+    padding-left: 10px;
+    font-family: 'helvetica';
+    font-size: 18px;
+}
+.button i p {
+    padding-left: 10px;
+    font-family: 'helvetica';
+    display: inline;
+    font-size: 20px;
+}
+.button {
+    display: none;
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.tophedar-bg{
+  background: rgb(7, 174, 240);
+}
+.top-hedar{
+  max-width: 1425px;
+  padding: 0 15px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.contac{
+    float: left;
+    width: 70%;
+}
+.contac ul{
+    text-align: left;
+}
+.contac ul li{
+    display: inline-block;
+    list-style: none;
+}
+.contac ul li p{
+    padding: 0 10px;
+    color: #fff;
+    font-family: 'helvetica';
+}
+
+.social{
+    float: right;
+    width: 20%;
+}
+.social ul {
+text-align: right;
+}
+.social ul li{
+    display: inline-block;
+}
+
+.social ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+.social ul li a i{
+    color: #fff;
+}
+.nav{
+    max-width: 1425px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* MENU BARS STARTING THIS TIMES */
+
+
+
+.float-left{
+   float: left;
+   width: 30%;
+}
+.float-right{
+  float: right;
+  width: 70%;
+}
+
+.menu-bars{
+    background-color: #006890;
+}
+.menu-bars .menu-left a img {
+    width: 102px;
+}
+.menu-bars .menu-rigth{
+    display: inline-block;
+}
+.menu-bars .menu-rigth ul{
+    
+    text-align: right;
+}
+.menu-bars .menu-rigth a i{
+    display: none;
+}
+.menu-bars .menu-rigth ul li{
+    list-style: none;
+    display: inline;
+}
+.menu-bars .menu-rigth ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'helvetica';
+    padding: 0 10px;
+    line-height: 60px;
+}
+
+#menubarsbutton1{
+    display: none;
+}
+/* SUB MENU CSS CODDING START */
+.sub-menu{
+border-bottom: 1px solid black;
+
+}
+.sub-menu ul{
+   text-align: center;
+   max-width: 1425px ;
+   padding: 0 15px;
+   margin: auto;
+}
+.sub-menu ul li{
+   list-style: none;
+   display: inline;
+}
+.sub-menu ul li a{
+   text-decoration: none;
+   text-align: center;
+   color: black;
+   line-height: 20px;
+   display: inline-block;
+   padding: 0 10px;
+   font-family: 'helvetica';
+}
+
+
+
+/* START SECTION CSS  LATS GO - */
+.msection h4{
+    text-align: center;
+    line-height: 38px;
+    font-size: 20px;
+    font-family: 'helvetica';
+    color: #fff;
+    background: rgb(19, 166, 224);
+}
+.msection{
+    float: left;
+    width: 25%;
+}
+.msection ul{
+    border: 1px solid black;
+}
+.msection ul li{
+    display: block;
+}
+.msection ul li a:hover{
+    background: rgb(0, 195, 255);
+}
+.msection ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: #fff;
+    background: rgb(38, 101, 196);
+    transition: .5s;
+    text-decoration: none;
+}
+.home-section{
+    width: 75%;
+    float: right;
+    background: url(./pexels-pixabay-257897.jpg) no-repeat;
+    background-size: cover;
+}
+
+.subsection {
+    background-color: rgb(0, 0, 0, .4);
+    padding: 197px 0;
+}
+.home-section .subsection h1{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* THIS TIME IS TABLE DATA CSS CODING STARTING LETS GO- */
+.use-subsection table{
+  margin: 0 auto;
+}
+.use-section {
+    padding: 5px 0;
+}
+.use-subsection tr{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.use-subsection tr td{
+    padding: 25px;
+    
+    max-width: 200px;
+}
+.use-subsection tr td p {
+    text-align: center;
+    color: #fff;
+    font-family: 'helvetica';
+}
+.use-subsection tr td img{
+    width: 75px;
+    border-radius: 10px;
+}
+.footer{background: #000;
+margin-top: 100px;}
+.footer table{
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer table tbody tr td{
+    padding: 0 50px;
+}
+.footer table tbody tr td h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'hevetica';
+}
+.footer table tbody tr td ul{
+    text-align: center;
+
+}
+.footer table tbody tr td ul li{
+    list-style: none;
+}
+.footer table tbody tr td ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.use-subsection {
+    background: rgb(38, 101, 196);
+}
+/*.subproducte{
+
+} */
+.subproducte table tbody tr td p img {
+    width: 200px;
+}
+.subproducte h1{
+    text-align: center;
+    font-family: 'helvetica';
+    line-height: 90px;
+    border-bottom: black 1px solid;
+}
+
+.subproducte table {
+    padding: 30px 15px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    max-width: 1425px;
+}
+.subproducte table tbody tr{
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+.subproducte table tbody tr td{
+    padding: 0 15px;
+}
+.subproducte table tbody tr td span{
+    text-align: center;
+}
+.subproducte table tbody tr td p {
+    text-align: center;
+    margin-top: 18px;
+}
+.subproducte table tbody tr td p a{
+    text-align: center;
+    background-color: rgb(64, 149, 175);
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.subproducte table tbody tr td p a:hover{
+    background-color: rgb(22, 151, 236);
+}
+
+
+
+
+/* THA MORE PRODUCTE CSS CODE START LETS GO NOW */
+
+.more-producte{
+ display: block;
+ text-align: center;
+}
+.more-producte a{
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 18px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'helvetica';
+    border-radius: 7px;
+    transition: .5s;
+}
+.more-producte a:hover{
+    background: rgb(36, 35, 35);
+}
+
+
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+/* THE ABOUT SECTION CSS CODING START LETS GO */
+.about-section{
+    margin-top: 50px;
+}
+
+.about-left{
+    float: left;
+    width: 50%;
+}
+.about-left h1 {
+    text-align: center;
+    max-width: 390px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+.about-left p{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.about-right{
+    float: right;
+    width: 50%;
+}
+.about-right img {
+    width: 250px;
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgb(0, 0, 0, .4) 3px 3px 3px 3px;
+}
+.slider {
+    background: rgb(75, 75, 75, .4);
+    margin-top: 100px;
+    padding: 20px 0;
+}
+.sub-slider{
+    max-width: 1425px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.slid-right p{
+ text-align: center;
+}
+.slid-right{
+    float: right;
+    width: 50%;
+}
+.slid-right img {
+    width: 90px;
+    margin-top: -10px;
+}
+.slid-left{
+    float: left;
+    width: 50%;
+}
+.slid-left h3{
+    width: 250px;
+   margin: 0 auto;
+    text-align: center;
+    font-family: 'helvetica';
+    color: #fff;
+    padding-bottom: 10px;
+}
+.slid-left p{
+   width: 250px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'helvetica';
+    color: #fff;
+}

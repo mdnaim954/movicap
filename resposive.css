@@ -1,0 +1,34 @@
+@media (max-width: 1230px) {
+    /*.subproducte h1{
+    /*    
+    /*}
+    /*.use-section{
+    /*    
+    /*}
+    /*.subproducte table {
+    /*    
+    /*}
+    /*.subproducte table tbody tr{
+    /*    
+    /*}
+    /*.subproducte table tbody tr td{
+    /*    
+    /*}
+    /*.subproducte table tbody tr td span{
+    /*    
+    /*}
+    /*.subproducte table tbody tr td p {
+    /*    
+    /*}
+    /*.subproducte table tbody tr td p a{
+    /*    
+    /*}
+    /*.subproducte table tbody tr td p a:hover{
+    /*    
+    /*}*/
+    .subproducte table tbody tr td p img {
+        text-align: center;
+        margin-top: 18px;
+        width: 100px;
+    }
+}

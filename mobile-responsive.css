@@ -1,0 +1,106 @@
+@media (max-width:868px) {
+    .contac ul li{
+        display: block;
+        
+    }
+    .social ul li{
+        display: inline;
+    }
+    .social ul{
+        text-align: left;
+    }
+    
+    .social ul li a{
+      
+        display:inline-block;
+        
+    }
+    .contac ul{
+        display: none;
+        transition: .5s;
+    }
+    .social ul{
+        display: none;
+        transition: .5s;
+    }
+    .social{
+
+        float: none;
+        width: 40%;
+    }
+    .button i{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+    .button {
+        display:block;
+    }
+}
+
+@media (max-width:768px) {
+    .menu-bars .menu-rigth a i{
+        display: inline-block;
+        line-height: 60px;
+
+    }
+    .menu-bar-1{
+       text-align: right;
+    }
+    .menu-rigth a i {
+        display: inline-block;
+        line-height: 60px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .menu-bars .menu-rigth ul{
+        height: 0;
+        transition: .5s;
+    }
+    .menu-bars .menu-rigth ul li{
+        
+        display: block;
+
+    }
+    .about-left{
+        float: none;
+        width: 100%;
+    }
+    
+    .about-left p{
+        text-align: center;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .about-right{
+        margin-top: 40px;
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 570px) {
+    .subproducte table tbody tr td {
+        display: block;
+    }
+
+.use-subsection tr td {
+    display: block;
+    text-align: center;
+}
+}
+@media (max-width: 395px) {
+    .use-subsection table {
+        margin: 0 auto;
+        
+    }
+}
+@media (max-width: 450px){
+    
+
+.footer table tbody tr td {
+    padding: 0 50px;
+    display: block;
+    padding-top: 15px;
+}
+}
